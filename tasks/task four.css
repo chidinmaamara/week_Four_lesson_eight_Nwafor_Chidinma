@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*
+header{
+    font-size: 30px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background:linear-gradient(to bottom, #f8c323, 70%, #f15e02);
+   min-height:100vh;
+   /* background-color: black;/ */
+}
+#foodcontainer{
+   /* display: flex; */
+   /* gap: 10px; */
+} 
+ 
+#previousBtn{
+    background-color: blue;
+}
+#nextBtn{
+    background-color: #c3178f;
+}
